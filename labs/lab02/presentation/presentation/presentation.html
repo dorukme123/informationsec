@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU" xml:lang="ru-RU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Мерич Дорук Каймакджыоглу." />
+  <meta name="dcterms.date" content="2023-12-09" />
+  <title>Информационная безопасность</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  
+  
+  
+  
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Информационная безопасность</h1>
+<p class="subtitle">Презентация к лабораторной работе № 2</p>
+<p class="author">Мерич Дорук Каймакджыоглу.</p>
+<p class="date">12/09/2023</p>
+</header>
+<h1 id="информация">Информация</h1>
+<h2 id="докладчик">Докладчик</h2>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Мерич Дорук Каймакджыоглу</li>
+<li>Студент</li>
+<li>НКНбд-01-20</li>
+<li>Российский университет дружбы народов</li>
+<li>1032204917</li>
+<li><a href="https://github.com/dorukme123"
+class="uri">https://github.com/dorukme123</a></li>
+</ul>
+</div><div class="column" style="width:30%;">
+
+</div>
+</div>
+<h2 id="актуальность">Актуальность</h2>
+<p><img src="image/linux.png" id="fig:000" style="width:70.0%"
+alt="linux" /> - Консоль Linux - это системная консоль, встроенная в
+ядро Linux. Системная консоль - это устройство, которое получает все
+сообщения и предупреждения ядра и которое позволяет входить в систему в
+однопользовательском режиме. Консоль Linux предоставляет ядру и другим
+процессам возможность отправлять текстовый вывод пользователю и получать
+текстовый ввод от пользователя. Обычно пользователь вводит текст с
+помощью компьютерной клавиатуры и считывает выводимый текст на мониторе
+компьютера. Ядро Linux поддерживает виртуальные консоли – консоли,
+которые логически разделены, но которые имеют доступ к одной и той же
+физической клавиатуре и дисплею. Консоль Linux (и виртуальные консоли
+Linux) реализованы подсистемой VT (виртуальный терминал) ядра Linux и не
+зависят от какого-либо программного обеспечения пользовательского
+пространства. Это в отличие от эмулятора терминала, который представляет
+собой процесс пользовательского пространства, эмулирующий терминал, и
+обычно используется в среде графического отображения.</p>
+<h2 id="объект-и-предмет-исследования">Объект и предмет
+исследования</h2>
+<ul>
+<li>Постараться последовательно выполнить все пункты, занося ваши ответы
+на поставленные вопросы и замечания в отчёт.</li>
+<li>Получение практических навыков работы в консоли с атрибутами файлов,
+закрепление теоретических основ дискреционного разграничения доступа в
+современных системах с открытым кодом на базе ОС Linux1. <img
+src="image/3.png" id="fig:001" style="width:70.0%" alt="3" /></li>
+</ul>
+<h2 id="цели-и-задачи">Цели и задачи</h2>
+<ul>
+<li>чтобы разобраться в разрешениях системы Linux, ознакомьтесь с
+разрешениями в гостевой среде и проверьте свои знания после прохождения
+всех примеров.<br />
+<img src="image/7.png" id="fig:002" style="width:70.0%" alt="7" /></li>
+</ul>
+<h2 id="материалы-и-методы">Материалы и методы</h2>
+<ul>
+<li>Centos</li>
+<li>LaTex<br />
+</li>
+<li>Процессор <strong>pandoc</strong> для входного формата
+Markdown<br />
+</li>
+<li>Результирующие форматы
+<ul>
+<li><strong>pdf</strong><br />
+</li>
+<li><strong>docx</strong><br />
+</li>
+</ul></li>
+<li>Автоматизация процесса создания: <strong>Makefile</strong></li>
+</ul>
+<h2 id="результаты">Результаты</h2>
+<p>Получил практические навыки работы с консолью с атрибутами файлов,
+закрепляющие теоретические основы дискреционного разграничения доступа в
+современных системах с открытым исходным кодом.</p>
+<h2 id="итог-работы">Итог работы</h2>
+<ul>
+<li>Получено <strong>pdf</strong> из report.md<br />
+</li>
+<li>Получено <strong>docx</strong> из report.md<br />
+</li>
+<li>Получено <strong>html</strong> из presentation.md</li>
+<li>Получено <strong>pdf</strong> из presentation.md</li>
+<li>Получено <strong>docx</strong> из presentation.md</li>
+<li>Запись отчета выложен в youtube.com</li>
+<li>Запись презентация выложен в youtube.com</li>
+<li>Запись отчета выложен в rutube.com</li>
+<li>Запись презентация выложен в rutube.com</li>
+<li>Работа выложена в респоситории в github.com</li>
+<li>CHANGELOG.md создано</li>
+<li>Версия на работе создано</li>
+</ul>
+</body>
+</html>
